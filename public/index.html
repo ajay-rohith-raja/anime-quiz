@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Quiz Multiplayer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Anime Quiz</h1>
+
+        <input type="text" id="nameInput" placeholder="Enter your name">
+
+        <button id="createBtn">Create Room</button>
+
+        <hr>
+
+        <input type="text" id="roomInput" placeholder="Enter Room ID">
+
+        <button id="joinBtn">Join Room</button>
+
+        <h2 id="roomText"></h2>
+
+        <h3>Players</h3>
+
+        <ul id="playersList"></ul>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
